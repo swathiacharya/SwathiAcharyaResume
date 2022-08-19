@@ -1,0 +1,146 @@
+.navbar-custom{
+    background-color:black; position: fixed; z-index: 5; width: 100%;
+    top:0;
+}
+
+.imgcenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home__social-icon i{
+    color: #2e4ead;
+     border:none;
+     margin: 5px;
+     font-size: 20px;
+     
+ }
+
+.skillBox{
+    text-align: center;
+    
+}
+
+ .titleName{
+    float: left;
+    margin: 2%;
+    animation: slideUp 1s;
+ }
+
+ @keyframes slideUp{
+    0%{        
+        opacity: 0;
+        margin-top: 150px;
+    }
+    65%{
+        opacity: 0.5;
+        margin-top: -5px;    
+    }
+    100%{
+        opacity: 1;
+    }
+    }
+
+
+
+.textFormat{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: justify;
+    color:#2e4ead;
+    font-weight: bold;
+}
+
+.nameEdu{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:22px;
+    font-weight: bold;
+}
+
+
+
+.subEdu{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    font-weight: 500;
+    text-align: left;
+    
+}
+
+
+
+.skillName{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    
+    font-weight: 600;
+}
+
+.projectStyle{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 18px;
+    text-align: justify;   
+}
+
+
+.proPoint{
+    font-size: 18px;
+
+    font-weight: bold;
+} 
+.proPara{
+    font-size: 16px;
+} 
+.proTitle{
+    padding-top: 15px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.proSub{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.myname{
+    font-family: URW Chancery L, cursive;
+    color: #2e4ead;
+    font-weight: 800;
+}
+
+.imgCol{
+    padding: 12px;;
+  }
+  .imgCertificate:hover{
+    box-shadow: 5px 8px 10px 10px gray;
+  
+  }
+
+  .containerSkill{
+    padding: 0px 10px 10px 10px;
+    display: flex;
+}
+.items{
+    padding: 0px 10px 0px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .nameEdu{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size:16px;
+        font-weight: bold;
+    }
+    .subEdu{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size:14px;
+        font-weight: 500;
+        text-align: left;
+        
+    }
+    .projectStyle{
+     text-align: justify;   
+    }
+  }
